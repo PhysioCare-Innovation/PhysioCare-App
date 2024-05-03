@@ -205,7 +205,7 @@ fun LoginScreen(users: List<User>, navController: NavController) {
                 Text(text = "Login with Google")
             }
 
-            val text = AnnotatedString("New to Theraphy? ") + buildAnnotatedString {
+            val text = AnnotatedString("New to PhysioCare? ") + buildAnnotatedString {
                 pushStringAnnotation("URL", "new_in_therapy")
                 withStyle(style = SpanStyle(color = Color.Black, fontWeight = FontWeight.Bold)) {
                     append(" Register")
